@@ -1,0 +1,316 @@
+pytorch1.13.1:´Å
+©
+dense1
+onnx::MatMul_13/dense1/MatMul_output_0/dense1/MatMul"MatMul2Ü/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/linear.py(114): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/container.py(203): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(111): wrapper
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(104): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(1183): _get_trace_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(890): _trace_and_get_graph_from_model
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(967): _create_jit_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1108): _model_to_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1501): _export
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(512): export
+/tmp/ipykernel_11242/2836468119.py(3): export_model
+/tmp/ipykernel_11242/2768660129.py(2): <module>
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3439): run_code
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3350): run_ast_nodes
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3177): run_cell_async
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2975): _run_cell
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2946): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py(540): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/ipkernel.py(386): do_execute
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(702): execute_request
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(385): dispatch_shell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(498): process_one
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(512): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1868): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(597): run_forever
+/home/tristan/.local/lib/python3.10/site-packages/tornado/platform/asyncio.py(212): start
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelapp.py(714): start
+/home/tristan/.local/lib/python3.10/site-packages/traitlets/config/application.py(1039): launch_instance
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel_launcher.py(12): <module>
+/usr/lib/python3.10/runpy.py(75): _run_code
+/usr/lib/python3.10/runpy.py(191): _run_module_as_main
+
+­
+dense1.bias
+/dense1/MatMul_output_0/dense1/Add_output_0/dense1/Add"Add2Ü/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/linear.py(114): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/container.py(203): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(111): wrapper
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(104): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(1183): _get_trace_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(890): _trace_and_get_graph_from_model
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(967): _create_jit_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1108): _model_to_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1501): _export
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(512): export
+/tmp/ipykernel_11242/2836468119.py(3): export_model
+/tmp/ipykernel_11242/2768660129.py(2): <module>
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3439): run_code
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3350): run_ast_nodes
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3177): run_cell_async
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2975): _run_cell
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2946): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py(540): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/ipkernel.py(386): do_execute
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(702): execute_request
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(385): dispatch_shell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(498): process_one
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(512): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1868): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(597): run_forever
+/home/tristan/.local/lib/python3.10/site-packages/tornado/platform/asyncio.py(212): start
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelapp.py(714): start
+/home/tristan/.local/lib/python3.10/site-packages/traitlets/config/application.py(1039): launch_instance
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel_launcher.py(12): <module>
+/usr/lib/python3.10/runpy.py(75): _run_code
+/usr/lib/python3.10/runpy.py(191): _run_module_as_main
+
+õ
+/dense1/Add_output_0/act1/Relu_output_0
+/act1/Relu"Relu2µ/home/tristan/.local/lib/python3.10/site-packages/torch/nn/functional.py(1453): relu
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/activation.py(102): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/container.py(203): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(111): wrapper
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(104): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(1183): _get_trace_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(890): _trace_and_get_graph_from_model
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(967): _create_jit_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1108): _model_to_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1501): _export
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(512): export
+/tmp/ipykernel_11242/2836468119.py(3): export_model
+/tmp/ipykernel_11242/2768660129.py(2): <module>
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3439): run_code
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3350): run_ast_nodes
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3177): run_cell_async
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2975): _run_cell
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2946): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py(540): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/ipkernel.py(386): do_execute
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(702): execute_request
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(385): dispatch_shell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(498): process_one
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(512): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1868): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(597): run_forever
+/home/tristan/.local/lib/python3.10/site-packages/tornado/platform/asyncio.py(212): start
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelapp.py(714): start
+/home/tristan/.local/lib/python3.10/site-packages/traitlets/config/application.py(1039): launch_instance
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel_launcher.py(12): <module>
+/usr/lib/python3.10/runpy.py(75): _run_code
+/usr/lib/python3.10/runpy.py(191): _run_module_as_main
+
+¶
+/act1/Relu_output_0
+onnx::MatMul_14/dense2/MatMul_output_0/dense2/MatMul"MatMul2Ü/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/linear.py(114): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/container.py(203): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(111): wrapper
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(104): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(1183): _get_trace_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(890): _trace_and_get_graph_from_model
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(967): _create_jit_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1108): _model_to_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1501): _export
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(512): export
+/tmp/ipykernel_11242/2836468119.py(3): export_model
+/tmp/ipykernel_11242/2768660129.py(2): <module>
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3439): run_code
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3350): run_ast_nodes
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3177): run_cell_async
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2975): _run_cell
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2946): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py(540): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/ipkernel.py(386): do_execute
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(702): execute_request
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(385): dispatch_shell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(498): process_one
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(512): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1868): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(597): run_forever
+/home/tristan/.local/lib/python3.10/site-packages/tornado/platform/asyncio.py(212): start
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelapp.py(714): start
+/home/tristan/.local/lib/python3.10/site-packages/traitlets/config/application.py(1039): launch_instance
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel_launcher.py(12): <module>
+/usr/lib/python3.10/runpy.py(75): _run_code
+/usr/lib/python3.10/runpy.py(191): _run_module_as_main
+
+­
+dense2.bias
+/dense2/MatMul_output_0/dense2/Add_output_0/dense2/Add"Add2Ü/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/linear.py(114): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/container.py(203): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(111): wrapper
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(104): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(1183): _get_trace_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(890): _trace_and_get_graph_from_model
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(967): _create_jit_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1108): _model_to_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1501): _export
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(512): export
+/tmp/ipykernel_11242/2836468119.py(3): export_model
+/tmp/ipykernel_11242/2768660129.py(2): <module>
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3439): run_code
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3350): run_ast_nodes
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3177): run_cell_async
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2975): _run_cell
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2946): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py(540): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/ipkernel.py(386): do_execute
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(702): execute_request
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(385): dispatch_shell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(498): process_one
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(512): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1868): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(597): run_forever
+/home/tristan/.local/lib/python3.10/site-packages/tornado/platform/asyncio.py(212): start
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelapp.py(714): start
+/home/tristan/.local/lib/python3.10/site-packages/traitlets/config/application.py(1039): launch_instance
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel_launcher.py(12): <module>
+/usr/lib/python3.10/runpy.py(75): _run_code
+/usr/lib/python3.10/runpy.py(191): _run_module_as_main
+
+›
+/dense2/Add_output_0outact/outact/Sigmoid"Sigmoid2à/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/activation.py(294): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/container.py(203): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1176): _slow_forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(111): wrapper
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(104): forward
+/home/tristan/.local/lib/python3.10/site-packages/torch/nn/modules/module.py(1192): _call_impl
+/home/tristan/.local/lib/python3.10/site-packages/torch/jit/_trace.py(1183): _get_trace_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(890): _trace_and_get_graph_from_model
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(967): _create_jit_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1108): _model_to_graph
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(1501): _export
+/home/tristan/.local/lib/python3.10/site-packages/torch/onnx/utils.py(512): export
+/tmp/ipykernel_11242/2836468119.py(3): export_model
+/tmp/ipykernel_11242/2768660129.py(2): <module>
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3439): run_code
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3350): run_ast_nodes
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3177): run_cell_async
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2975): _run_cell
+/home/tristan/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py(2946): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py(540): run_cell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/ipkernel.py(386): do_execute
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(702): execute_request
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(385): dispatch_shell
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(498): process_one
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelbase.py(512): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1868): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(597): run_forever
+/home/tristan/.local/lib/python3.10/site-packages/tornado/platform/asyncio.py(212): start
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel/kernelapp.py(714): start
+/home/tristan/.local/lib/python3.10/site-packages/traitlets/config/application.py(1039): launch_instance
+/home/tristan/.local/lib/python3.10/site-packages/ipykernel_launcher.py(12): <module>
+/usr/lib/python3.10/runpy.py(75): _run_code
+/usr/lib/python3.10/runpy.py(191): _run_module_as_main
+	torch_jit*;
+Bdense1.biasJ(c>¨¿~¼À‡;BX>¶BŠ>´¼ˆ]&½u‰>Ï¼_½ER¼*Bdense2.biasJêMd¾*ô¤
+Bonnx::MatMul_13JØ¤]À>Õ½å	Á;ş„>ËÆ>­V¼å=¤™>´Ô<¨§¼ ´r>ûÆ<±åy¼ëŞ…>‰w>ò)Q<´Õı¼ÚU>/x»P„Æ¼’T°>òæº†vg½`ìÍ>1ÃÖ>÷µí¼õf‰¼ãÎ>îc«;IÈ0=ËÕd>·èÔ»½™|»+Ìs>Z…>ı¾¼û=h˜>b&È;~É=ıÃ>—A =@3½8á¾> ¤·>+Ú;Ñ¬<m¸>d8ù<0}4<¤r>fûŠ¼*D½N™‡>*Œ>'Ø»º’;Ù»>LiîºŞ?<a4>c[p<Ğ­—»•ê6>úƒL>’7½şAö<S./>C~š¼a»î;Òmw>%<»çÂ»).>{+E>’ê¸»dä½êï^>qàN½$
+=ùd>
+ß<Û‡»iıK>ÛÃN>‚[º<jm¼>Z>¸¹“Pè;ü/y>§s/½ Ú§<"Xƒ>GG‘>Ó²Q½NU"½Ö9ˆ>ÛØÁ;†«<*³>£Ç<uöĞ»Ÿ>oO>®ò;¼è½OÃ\>X/Y¼1È¼Ü­>`µb:ƒß¼:º¢>’/¥>Şi<•S3¼2á“>ÓbP¼¦¼ÿn >Ğœ@½Ï4ÿ¼ò³·=wæ=®„ï¼zË¹<‹Îi=qOÒ<"°<hÅ<>»T½,[½¿`>æ—i>n7K½¹=M±‰>Ëy"½ñWÙ¼">G|?½èB£<ü‘">ÿ¨'>©’;!¥; ÷>Z@e¼%Ï©¼`o¡>“Ì<vdà<•>‚©>fz<½&Ğ;aüé>¬Â¼Ék„<gy9>³“·¼Â½oÊ*>Y‘Q>{5•¼=WŒ»µ¹T>Q@¼¶uAº4§>=r‘½k‹Æ¼ô&Ç=Ajâ=ù€¼nL'¼ø¢=+tq:Y—¸<-d$>öë]¸Rz6¼À=QÓ>.hÚ¹kl¯¼f+>¸ù½‚­+<g“f>›½a<ø?>æ+ƒ>xÚ>¼”Œ*½ãµq>  <ğùö<¿Ô>1É=Ç#,½;1Ø=ıSo>%ìÕ;Ÿ^Ö»Û×Q>Èå¼Ïù¼îËQ>Ÿc:ÖË½å­E>ÿd]>í…</k2<,:‚>µ?<r%¶¼-J9>K½œ
+Ú¼3eë=•:S>QBÕ»GH=~î=™:Ì<ÓK¶¼»Á=áw=C8;ŞË>QÓ>ƒO»Ê=I:ê=çÁ¼È˜¼[æº=9›=¼æOd¼Pæ=Ò>š³¼A>&½Õ2û=8å¼m-i<‡ì>z˜Ÿ¼…¿Ç:ó—>#ê+>r(U»kÕ1½º¦N>¹xú<^í½ªÕ*>ºË¼ÜPV< ¹">${>ü½Ì¦<”E>jœ¼¹âÃ¼lÉ«=X.½Ÿvd¼¶½¢=X~1>U½c½´øà¼wÚè= ½Zó'»Ğ´õ=ÍÚb<À5ù¼ƒ–>^{>%×P<†jŠº~m’=fÈ:½‚JÊ»—s
+>üAV<ÕV1¼"ñÚ=
+% >2€o»ê={$>¬éU<sŸ{<hä> ¯9½WX…½u¢)>À$>&ñ¼A”È¼¸w%>ŞÇ¼«k/»:2>oE½"ÆI½>&>Ñ,>aLs½áR¤<VY*>Ä“o¼™C'=Y-/>üú<µ"¢<íC>½@!>ª)½”ûÂ»ô}+>V½”½ªÄ=oø ½Ñ¥Š»Uı>åé=NŞ;Iºæ¼@ù=¡±0½pˆ»l¸=èŸ<Ú)1½t£û=¶”‚=	§<ĞQ¶<p³=©û!½dl=
+¼>&|ş<Ìh¼ j@>ç2>S…–¼Ÿä-½Yq>â»Šñ<§yñ=Kò!:fµ¼\Çæ="c!>Gß;½û(¼—ñ<>×¼bj†<\û&=jñ</;›‡2= Ô‡=Èœ<û0=(o®=ï0=ãø¼yr€>Á©”<…ŞÂ»×µ+>qSN>TÂC¼LD½Æ#K>Ø€…¼ª9 =$×>Úç½Œ-=<Ûñ¨>´Î¿>a2 ¼]ı<ê¹>”V¼ƒû›;i³Í=|×	½ÀJ<ò%=£¢=Rl½ñÌ<„l>ÀÛ9½E!Ì¼,Eq>\©¼Şø¯<šƒ>{¿Ÿ>ˆğÌ»µ3|<¹¢>4ú¼#À¥<¾Š>jÍ=Ãa½1æ><®">ST™¼•Y<ÀdS>\ğR½Xn+=‰`X>_ŒX¼‰.D½Üø*>÷Ça>]¾¼DÜ¼;eƒX>yŸA½¥%<->Iœ¼ßä¼Ç.>±;>ëÆ¼tXŞ¼†&1>KiÖ¼Â½f³í=Á•±¼[ÖÚ;U[>J´;>½¼ª/Ã<¿ÙM>¼*¼qBs<³d‚>ík»™Œ½Îl>>µÅ“¼ù,ß;Øtc>lœ;`yû<ìÒ>ÜGÕ¼c•&<²Qe>_Ø„>¦K7½Ç_)=AKt>j‡œ<'&½±w>ÈĞ;3ª;¡¹÷=˜ÎV>T#½û²=«•<>’E½ò0<ç½U>Í]<Ñ£º<N_>e“Z>œÉI½›t<ÉîH>H”c:™ã4¼û»ò=«'¯<Á¸ÎºÂÎ=Şv›=©(<ï1^¼PAÊ=îõq¼›°§¼I€c>
+V¼ &<~“‚>#€>ı˜;^ŞÎ<t§>¤0á<&E<Q`=ÿ¼Ş<Ÿ8=F [=æ_¼Âø½÷³=K[½-½„M¥>ßÄ(»¶â¼Çˆµ>ÂÅ±>Œ?a½»n<µ<Ë>~´Ì»¼i@±>øn<üâ¼ìL„>÷÷½>®Ë<Û*=€›Ÿ> wÈ¼Ú¼.£>1µ=\b|½UĞU>X>™Ä;íT=ÆX>ŠúÀ¼Ş„A;ä˜k=è?¼^)½G¦=yç‰=ıcä»ı²;O˜=ƒ‹ê¼Í©(=M¡>RV¼^oW½i•>­˜Ã>Í™½á¬!¼Åè¢>şÆ»×2=rµ—>ú~<ñ±<Y¥‡>€‚™>7‘¨<ïÓ½uç’>n3ø<!Ş=bĞ>=oI¼ù…¼k ƒ>'£>·xğ¼V™½2Ó„>9WÎ¼páW»/ç·>Q	½æŞ<–>·Ğ¢>›Ãú¼£ü(:Ô~ >6Ï<Ü:A¼< >öi¯»¢#ø»aÍ–>.7¨>ñ€=<¶Õu¼ËD©>Ê6';ÎÁ<ö6R>;½Üüf½ÏlT>­R>
+ÿ¬¼UÑG¼&m>
+¸G½(„’<ºq>,_;YYg½=o>zîP>Œ#&»	@œ;1<o>[ñ<M ½4¢7>€\¬<ğïÁ¼Kƒa>ø‚>©A2½î¯¥<8¼O>ù­¼E"Ï<Ñb]>¬’;˜tË<uA„>¬U>|ë;XÎx<û‰\>—ìÒ¼8½æŒŞ=s©O¼`ég½|C3>‹!ï=EßY½T‘¬;KÜ8>Eˆ½Õ`Ñ¼tO]>Õ@ ;ıKØ;«^>s>×Ã¼:É½™sƒ>N+	¼â¡<¹||><ëÙ»Ê<ÓG>•jˆ>- ¥<
+t™<XO€> Ì<*=ÿ>ğ«b<0ÕR½Ğà>ŒÀ>Æ²;èƒ%½í—!>qƒú;˜½¸n‘>ƒ=ò
+ù¼Ó\R>0C¦>`¼‡L‚¼úG>dÃ¼I¢å<ÿ4><J¼jC½H²İ=l8N>.CÔ¼à€=,M>÷È°;vS¼è7>©(S<”½àwG>R{n>2§º³Ç¼(–‡>?(–¼¾-ëºÌ>(åz¼Ò•<§>=>DµÔ¼‡‚ß8àO
+>ê%ç¼‡!½ß—Û=]ô¼úò½ò>4'>Ù9_½…B;¡ã=>ŸG½]=wÿù=Kÿ2½5¥Y<¢U“=ş^Æ=w©<í“Û:;Ë»=%¼Çı<Ë‘l=n’¼»B½6ÍÔ=·ï=P=¸¼ú^½> ŒÅ9H	=gò÷»GN¬»mñò¼<“òV=|¹;Êè¥¼û/6=ëªB;Aw¯¼)¦=ÓF»œè‚<ğ=w>Ç”+:mõ¤¼MZ)>_ûT½Œ°/½ŠÕ=9Ûñ<Í<…¼õ=7u6>İ<;÷ü;u*>bø<§Î‡<rûç=Í_ÿ<}…3ºzZÊ=Gn¾=@;¼eç¼¤iû=è·Ã<€ş=ÿ1˜>_¯»¼'Ğ`<Ék†>i?>ë´İ¸Šî|<f3‚>\®<_«½Ú«z>™X¼–š•8”ÌU>JõŒ>Io»\zÏ¼SÃ…>]fØ¼©“€¼´¥†>õ‰p<™wş¼ò¹W>œÕ}>¼:‹<{UÉ»…[>”S<_=Í—¸>à<jÿº¼ñWš>º‚¦>“+½™ıï»2¿>—½<~%<iUd>9<g_¬¼çÛ[>3T>7Ì¼Äş!½ñŞ}>*¨º¼¼®j•>ìÇ¹<Sjw½«½k>0¿¬>+nê¼äw¼¬Ô­>O`¦¸@>	=¨–©>…Õ-½)6½«Ù”>ó½>8×Ì»
+'<‘ §>‘ÈÚ;´2½@1½> =ªó¼H§>NL¶>(XB½ôbÖ<:°Ê>7#½Ïu¼Læ¨>¶ÜÊ<œLH½Ô  >÷q¸>$M½k¿µ<péœ>¿:+½jÀ!½1-e>¡Œ.¼˜W:
+úd>Šd’>¦b˜¼)õ‰¼uö>¸•_¼½ß>JİÌ<4 ½©vm>'ÆZ>•hX<Éæõ<Õ‚^>5U<$Ü ½Íî5>6ö!½÷9¬<½Ç=†å=f{,½;<<bø >ˆû	¼ƒ¡šºf¿ >%#0»?<ÖC¡>Ø• >òe¼'¡ü»4©>:½/z0=au¶>½gé;`;<İşœ>^³>›¶<‚çY¼¤ƒ£>î¡<èÿS;{o>îW'<;Et½]>¹‡t>@+G½Š™µ¼Ì"ƒ>”1‰<@ <rl~>ÁÚ½>æ½XsU>°yŠ>=<<d_2½rïƒ>ÓÔ¼¬Ê¶¼Aıw>3pî;ñt½oµ>O˜¤>sÌz<ùæI<½T‘>Ê£½qŠ˜¼… h>î›¼0¦^½?(a>*í>>)l_¼”•½¸€>…;›<¢²<ğ1s>íëı¼@´½xr>¡cK>±¥p½Fâ=2Š†>
+ëÚ¹(£:ÜÎZ>QWì»ßWE½"I>˜u•>	u)½+q½†ÿz>p–<˜1½B„®=]pR½—û¼E¥T=©Ş=:‚½$t=<>ãÌî;9š_»9Ü4>Vô¡;R¤Õ;Wcr>§o>W½B	À¼Äš>ñğ¼Øy=<Ú}&>¡-§¼Íš¼8ÙK>4V>u¹¼	=(o>¡•<“İ»Q¥>“@½ÿ¸<Z‡®>Wc¹>Ån?½/=„©¦>‚MJ½¬ß<·>>“Ö˜¼‹Å\½¹£¿>u8¯>h’T½/*¨¼§³>Ş6B½=Á«¼„PB>ğ{<FrZ½@Ó‰>G6^>Àzé¼¾OË¼ä>Æ <•j7<g>^w¼aº<0Ãl>Ó$l>Y–ø»N·Ü¼ÕT—>ìö^¼g½p‘˜>¨™L;ïÑı¼ùè“>O’©> ½xkù;!¥>Z“<š0=5Œ>S¥¼‡A›¼Fà†>ôx”>îa<µ—½a¢>¼¢%<$ÍÉ;Í¯ˆ>« »¼q½ävu>/>Xu<½Ô<ŠuR>Í½Í<¾tª»DàB>	T½Üc½şxY>òl_>xô²;òşd<æ>¤šÑ¼vU<a(±=œŞM½`/Š½ˆzw>>‘>¹ˆ};0ÿ<cU>ï² <Æf;Òı=ÂŒ¹»²©Ğ:âT*>Ä>î=pé½\.=x.o>Ô¯M½X,%=í´ş=£ša<çL¼á|Ö=LI$>pàõ¼Fn¼šÓ*>µï<œÒ½Jo>‘;û¼Ø½0ã‰>Õ›>ÕdÔ¼Ü6½Õè«>Ú6‰¼¤’<‡ë|>ó»í¼XáŒ>Vu>Á<Ø:C¼ËŸ>”Ğ½;Û;U*ö=Qs¸»µÔT½¦/>|cO>»qv½=½ª’3>ÌÙA½D;áê>yî5½`áh½üa”=†;>î·K½úŒ,½Í¿8>Šòó<C5,¼³JÊ=±ÍÄ¼ñµo½b×=ñT>]o½ò™½õéF>yZ<ßê¼ówĞ=˜ô ½µ +½\^¦=')õ=ßæZ½eJş;ËŸ=ı÷»’"K<føW>oõ<³¬<3Š>´X >?¶< ·<œíš>…äô»MÁ <=Ï3=€İ±¼»İÆß=†úÜ=¢´¹GrÔ¼N¿>L¥¼Ò'<‡é‘>\†<‡¡<‰–>,Œ>tIŠ¼Êõ¼¨¾>÷ló¼fk=,Ûw>åéá<R7°¼qŠ>iğ›>¦¢<3YÁ¼.˜>ş‚Õ<i'!¼7‹>¤ù»5•¤<ƒC>æÏœ>½›¼uØ	=9*Ÿ>™@~¼º¼Ö¨˜>·ôÃ¼ãéé»,u>0w¤>v½ôoÎ»t¢>ĞÔ“¼l2=®0>zÄ£<3=Q½w&%>§+>¾½¯c;¼í­y>Së6½SÃ=.u«>e›œº¼­©¼@›>>]±>ğÓú¼!ñ¼ûÃ>ÿÎ1½e<y™>X:;³Ü•»ñİ°>:IÂ>q5`½¿a?¼çÀ>=\½ÃX}<`@ò=OÌ­¼†£>½~>‚>2k½Ÿƒ=c<>ôÓ½ïŒ0=91¥>²]<(0Ì¼ –>mbœ>jÈ©¼ŞÃİ<Äš>4ØT½m‡Í¼²4Ó>D6Õ<Wj <è¯>#Ğ>ı¼®Ò+½^sÍ>³X¼²£É<PŸ©>;=ŒKL¼‰,Å>É]Ç>36›¼K<öÜ>3jú;Ñ¬<xUó>d'½7¾i½ÙåÛ>‰\ÿ>9îP¼8)½B÷>>Ò¼9#½$„>UÖŒ<%6M<Ÿò>‚>±Åú¼ùº—¼ªæP>ÒR€;Öê®¼­‰µ>Gÿá<8$½Ñ'º>P¼>Ût^¼T¡à;ªÉ>¬Y=ğ½.Ãx>Ú!¼X´ø¼¢ÙF>Ü€>Q}½ióÛ»¿ÇW>Éœ¾¼İã/½Tå¨>Â¼FEØ<¿ª>+¡>y-<ô<Ó¼†%ª>NØğ<x·¼”¬ =d‡ı¼„Ã/½5g=­\î=òt½5è½Ø>-19½ş~ ¼+p
+>0$y¼‰‡P¼H>­Ê>L°¼ŒXa»ñœ">¨$A<¬H=±í=PÀt<æô¥;¦œÁ=©­š=„h½½Ô£¼»!á=N­½ËFÏ»Üé·=„çp¼7ŠS;Æ„=£L¹=Ü5L½œ¥à¼h…á=TN£;k~¼¯,>a1½…IŸº»ÑJ>µ9>Îèo;=´¤<Şf>2án¼ÑŠª¼£¹Ì=8c>½\Ñ<X“Š<{Ÿ«=›‚½åÖ¼ıê©="£¼3»<İüN=UÇŒ¼ø¾›¼Ö5ˆ;øL<Cı¼i6#=± f=ºJÌ¼2=~!_>„¼Ş<â¢_½]>uCG>'ˆp½õ7‚¼	û|>¦L½¦÷«¼è.=»<_¹2¼|Qª=ÙàÙ=‹¯O½º¹«<¶›=İ3U¼‘Ç½ö˜í=oÙ¼ÚÏU½äí>xùì=+Y½Phk¼H£ã=§5¬;Ï¡<å>¯g¼>0<+¢”=ŞK'>®İF½ØÑ'=‚öÅ=ãñZ<Óûª»LT¦=Nİ´<v˜»£±á<¢/½=,Cï¼Ó–ÿ<ÏÀ=í×¸;ó¡<Ä_>d7­<Dî¼‡@>û=L>+«½²Ó
+½»|>®eğ<3ZÏ¼ù]>î»<À(¼¾¬> üŠ>Wä½vw¼)B>m1½àJ<Û¡s>d;Ùc%½ŠNu>1†r>ˆÿ}½õ¬C¼¾ />"D<<!½mÙ*>«Å±¼ÿ–D½C3>Økn>¦¤¤¼ï¬=Yr>ëê½¹½uX7>Š¤´;èÇ¼Şˆï=·%>¦Û¼»`A:ëqâ=l‰!<•~=$S,>ëÇ½n´<¥>ç¢?>„œÆ¼öš&»	¶×=©¼š'$»Ôj>J½„Ğ<n8T>ÙÓ^>ŞH½Š‰¦ºÉ=;>Dğ½&8á¼ğ(>0ZÈ;Ğ‹¯»q‡,>€×N>°µ=½½;Ñ>+ÑĞ<úaÖ<W@>ƒ¸¼ªu˜¼Ùo>©Æd>e´ø¼i’‡<“†7>ó{‰<ñÍÆ¼—A–=5Ä#½¥ÑÈ<Š=>tÚ=ØîG½Ğß<‹Ø=CR=–7='6=1v¼æ9‚¼…Š}=(Zş=ò35½·ƒ%½éÖÌ=,´F<AŞ]¼,Ô=û%<?ü<·Â
+>	Ä8>rt*¼úv¥»U>f¬ı;$(¼õt=XQ»qz?½“…Ì=‡>js½»ŞR<G§=œ“V½Ä¬	½œA÷=ò=÷Tå<Öüê=}*O> 1	½ÆWc<Sc%>ƒç6½.Ç=Ş¢=H¡£¼Š&I½­[*»ê2‘=Ç~d½Íc'=ğ×Š=±x÷º˜’;„C@;Å7¼Só•¼oİx»¬s=½§ ½ÍP=å(	<©­â¼ŒG‹¼
+…û¼—»®‰=[èœ=cS‹¼/+"=öh<d±G½àè=´²=ô¼Ê’¼i<j=ÿ’Õ=S Æ¼7ˆã¼›>`“ê¼.6×<([>ızõ¼ı¹‹;gÂT>Úî€>•Wl½ØHA<êÃO>$o<?¼‘;>2=½õ%í9[>­^>ù\½Mõ—;¸“?>¿-<'êâ¼´·W=Í`½A)½Ìß=Gı=^ÂŠ» ›¼¢ÎÏ=]/–<'Œû»
+i=ÎW¨<Ë¼¼¿}å=Ë%§=%°½°Û=äĞ=íí¼KT»<xâš=[\a½¥ê+<C“i=İ£«=â½@ÂÀ<w,¤=¬¿¼Ã­x<ˆµ_>¤ïÔ¼aun<ğ^M>Vãq>™¶)½u<f¼O¹>C¼)±•¼’°=0.½Ò3Ù:@=r«ß=4Ä"½(s$¼Œ“u=_]<Á‰½Šîw=kµÃ¼&Î8<rô¨=Õ>Dİ»8<äˆ>ş–»®0j¼?ÈT>¹ºC½Öq½ÑÂY>[>±³h½Õ½pgN>#<#½ÉñÉ¼F5=«™¡»½¶q‡<cÛÖ=«NF½¼¡»ü=E2N½=òı¼Õ'½C2'½£$L<ëg:»ƒ”»LÓ2½Û*€<¼=‰+%½Í#I<z¢(</'ü»Å^ª<×Ø¼wµ½¼¼2€½NÈ:×”°<Uè?ºÕ¢ <Ïúè»ôf^»Ş@Ò<ïqT½T\ÿ¼¤;B<çT°¼÷ûO=ş²<r&ù¼´š$¼ÖLµ<ù¶ò¼|Â¹<¤.<%WE½S0»l"£=r!:½NV2=|vÎ<è2Ğ¼påX»ó{=€ö=3g‘»¹Mì<~o> ²:‘h%=uSº>Q–½#½ñ¾½>Ä¯>È¥O½+s¼Ñ²«>&Õ»R;%¼4—<N_–<o× ¼²Ü<Ï×_=ú–G<g®<iL=‹›;b½÷<Ã=!½—½şn=8®=•Èc½ÎÌ;”™1=EG¼9ş'¼Æø=Œ‰<ÁS½ıª‡= [S=,Ö‚;Æ¼Ë„N=š†<>jc»{j <4Ä–<§¼m¼rK=ô_=%ü¼ÊKé<²g<Ê¶=<ä;ˆ¾E>XSÁ<¸ÔN¼‚æg>¿Ÿ–>×d½PÈØ»ƒğ†>{Ú};:œ¨<ôL:>º™¼‘Z½Òb>DrE>ë¨n½±m<Æ>„>NI½'6Û¼?¿:>h¶Æ;¸ƒV¼U€t>=Œ>Ô=½ríï¼ÖH>Æ_¼BÍ•º›©>õÍ<zù<kkí=>%Hü¼ù„0½C?>ª~Q½%‚ß¼1„>G—:<´v½ÊÜ4>‚é€>‚r]½²X%=ıx>L½Mœ<	j>Øş3½2çª<Zù6>òEp>ÒE0½A <©j•>‹åæ<Š;¢<es >]Ï-<•]½B0˜=6eÙ=)ğ;n;¼\ñ¯=•ÑY<+¼.åÊ=wŞÂ<ÄÔk½{_±=OÍ²=kº·<*Q=¬8Õ=ü˜<ü±(=ù#N<•pW<}H;BÁ;‚‹Š=à¹t< &Œ<'SF<×ZÜ<’§’¼ei³<Â¬¼!º"½³`=&»ø< //¼ö+:¼¡…Ô=ÌU;úï¼†óQ>GÖ½]q]½Dc>i>ºc¼°×¼Õ£i>wC»&(=Òo»¼×“»; Q^½¨ÀÂ;4ØŒ=ÃJ<¬µ:ğÎ=KÓ¼TX»W´½¾<½eÙ¾¼w¯î½»S¼½0²l¼µ¿È¼¦è‡¼6ˆ<é=mö=¦¼½”B¼"¬>–o>%¸º;EZ<y@*>Û‚;ê"<L4ï=êRU¼i²<'Ô×=J?İ=È-I½ã°½Üó>R[Ã;e&m¼9>„œŸ¼GîŒ½$ıI>Pp.>G¹‚½ò#=ÊFW>MÈH<ÿ*·¼‹;'±Ø¼tË: f$=—uš=®°İ¼÷¥ê<Êà<Gñ¿¼!è†<wÒd=[Ñ–¼·ÖĞ¼9sş»¤!ğ<*[t½€À¤º# 	=$ù¼îà=t¥=l¡<­€<…0€=×“=+ñÜ¼p¨ñ¼Ÿ»=,Ğ<"Õ¾<Æn>Î(½Æ.D½fîR>fªh>—y½¯<Œç>õQ<Æ{˜ºá 1>dz¼‚²»<‚6>6c@>%Ğ;%$½àyZ>»­Ÿ<'·Ş¼lİ÷=°¤¼‹ÔB½œ×=·ìå=?<ézç»KK>‚Å,½¦—¼nsc>¾`6<–½é<—^>êhV>¤Ü0½~8{<ÒŒu>ê$½Døå:–?ü;ùé½ÁT¼U©=[uç<y>½Ù"½|Ç¬=ùï ½k$=>Œ¼
+¼¼÷›U>NkA>B§‡½ùD4»)#Z>^9¼1q³¼OÁ‰>Ñ-³;Öı¼;½Á’>C¸„>ÏúV½Fú%=ß—>©½¤T;¸¦C>)¦­¼c$ä<œæZ>4ù*>‹o½ÊÏ;løT>ßAi¼>8½Y<Ù9ş¼Â*Š;­kæ¼H~q<îb<½»ìº œí;ÌZ ºg\Å¼aR±=šE;<²¼y/f=ıõ›=½^°<&ı=c½å¼h'Ë»Ÿ~>_R7½ôWâ¼—>ŒRš>ênÙ<d0=kb>[Ô…¼éyä¼-[‹>rı<|Ğ¬¼éø”>¨g‡>~½¡Œ4¼}ª>yS&½l‹<o­L>å—4½nL¼Ã~j>&d>¹úë»¤2×¼{RV>°Ò½Ã©Ö¼mzœ>²Ÿ¼..½^w–>÷Ÿ>ñ#…½[§=G\ª>û½À¼7¾=×Á>&â¾¼Eh•ºğŒ>' >è9½.Û¼Yg¨>Ğ¼ˆ°’<ëJª>0Æ¼Fc@½´ƒ¾>z÷Ò>ÄIY½³HqºŸ’À>Àlª¼Î0,½•;¨>TÇè¼°ö0<Sš¸>™_Ô>e¹õº1ğj<±Ï>á4½+\¶¼~jH>O*ı»=å¹¼›\>aÚi>Û%i:æRg¼rHj>âÃf¼£ä¼¤È}»…÷§<îW<•\»£¸<|İ¼œ, ;'À¼¿ÒÏ¼€= =0
+[=œ	½Ñ©K<]Ä´=Û(È=ÈÙ<¸<Ãœ>Œä?½€Qª<41ê=Š,e½”Ø;ƒË=ã=‡š)½¢¯m¼«b²=ßS<h/)¼_9,>X³½¶W¿<%,>‡–8>h5º¼ ­;‡H>Rê<ş¬
+½É”­=_ÓË<f½@<+OÀ=ıÔ5=<‘Ç¼øn¿<’6ü=c÷1½ø“÷<öF>Ü®İ<‚j<µRì=«Í÷=Şt¢<âÆö<tƒ»=–Fº¼]¼TÙÚ=ÔÅš¼aí¼âÇ>V]é=ªNŒ¼‚+<Ä+>ç&œ¼P—„¼kÃ=öe$½¤7t¼£¤µ=úF>ÉZ»2‰ç»‰@>–ˆ…<Q'=­šƒ;Œ#¦<Ğ¨<÷>=mñÉ=­]_½şÙI<vR=NEİ<A^"½ĞA>§÷¼O´—<É+>£dO>»<×»Y˜M<¶ı`>%n½=*…>j¸ô¼^$);xA„>úr‹>¶½o4¯;Bƒ>[Q<·Y:)¸>¤¼*ß:½WlÌ>éwÄ>6fg¼°'ù<Œ®Ê>/dê<±:< ö>%ã»";½‹>Ùö>)×¬»,E<ã/2>‹¼*¤¨¼0ïÄ=Åˆİ<¬–ı¼R€Ğ=ë)>¶œ‘½1>H<6U>Z;Î<òÚ<âÊCº5
+=İ½{›Š<Ìí3½™6½=¥e;0ó©<€Ï<_‘¼gów>ßxM½V˜ö¼•€M>²q>Kœb<wÇ¼vGm>`—Ê<nšá¼L¤¼?;†¼»à<ıËĞ<ë¬};ÕÉ¼¾J=%C½´ö¼›œ­¼¯±Ö==<ï‚>½5v9>‹;8>!á¼ñ»<Ud?>T/¬<b/½Dìº€Y½*< ØºÌU»º­iµ¼t¼Ê<v4‰;K­;'üÜ<f²½¡0q¼¡‡Ë¼vè½i	ò½À¨‰½æší<•x¾@¢K½, <ê™>X!Œ:ó	½éå‰>‡˜>'‚4½}’!=µ+•>)†á; X"½H´U>/;½¾=J<u@.>zLD>¿ù†½wö¼ãÿR>fEÎ»*E~¼q8ø=¥³z;½Î9ÆÀç=AP>‰éâ;,Ü=±v>ó	½¢áõ¼WÜÒ=bàg<Qh‚<^€Æ=*ZC=@™»{-Û¼àƒ=¦4G½Ãu ½M>ßáR<ıÖ¤¼íß>BmB>æG½°°;Ëó!>Ø½òØÉ¼;Gn>‘ù!½+ˆ<Äul>ÄR=>šeÜº0K¹¼ãjF>¯õ‘<Uã,<•Œƒ>B2ï;rà» ¡>êE~>=z!<á&=ìÊ›>™xÑ<«¨Ü¼4×¾>64½0å<½À>yx­>gÄ(½k¾I<J¼>ô/Ğ¼°=!¸X>ùòì<ı™¼ùG>V$‡>_-	<àcÀ¼Yùm>ÔvÜ¼Ã<Ò>‹¤=ˆŞ<Áµ#>mĞ@>Ğ3¨< qƒ;CM0>G ô»Öª=ÿÉ9=£ıò;Î[Ç»¡OØ¼ıĞÀ»Gãá¼È©ç;YO€=ã\Ä<<ã«=Q <‡ø¼¤ít=Ş(x=Ös½‹_0=™ö>6_D¼j±ç¼’"e>ÿ$ª<ğûn¼‚ã>WN>´œş¼H¼Uop>ü½è:å»j>Ş”$½Óµ¡<m”ç=ÍaG>7ÆP½Pİ»¼¥#>Î/½¯!Œ<õE½Âö=]y7»Ô<r˜¼uKk½b@—¼@Î<6X½¶Œ¼ÓŠÄ=åü»¥1½,p8=<™Ñ=ê?¼[,½0ä= ¢@½U;u±¼
+¤í;‡İR½t<ŸnP½Ìk•<x^ô<I­‘¼¬-<e“½õ–9>³4¼D2½¯ü€>á·|>­î7½tP;¥½h>Âö ½‹eÉ¼Ù‚ô=¿Ø;¦—<j^>³Œ;>
+uÓ;îø®¸^>Ó‘:½nG×¼¥Ûš>ÈŒ<+’»Ü(œ>´·>B·¼ö`Â<ƒ¤>:ı6<ÀR¼‘-<P =ÒßĞ<µpœ=¦G±=‚ùu½«KÀ»_$3=u
+å»ˆî=š¡>×<3k¼eá¥>Ò >âQ½å¡
+=ôı‚>ÔgI½>=Ñ >*ş1½ç¦ô»³³>÷¢³>­O½àC=7ºÅ>¦==z<Ê”x>­U¼j ½yk>‚G€>¢ü¼ñú¼¼ >‹£U<ùXº/£>FãG½¿J{;Qı‡> >Zü;ò/‘<¾>Œ>,á‰<Ts¼É”->£é´;à½âÕ^>à"b>zËÕ;’¾·;Œ~>(ñŒ:ç>³<?\&<Cm<<?0?Q‹{½ğ¤´;D÷>M¹İ<ûé:XÚm>Ta½§±¼ñ§@>hş_>##›:@WÌ¼X~\>+Ã<€Ô<›¼RD¼¢Ù{¼ÏÙ<N©B=l5½	İ<Ñ÷=Â†¼?õ»ŠÓ°>–‹Æ<ƒ¥©<Ç˜²>Áµ>'sA¼µí<³m«>0Â»¼…ÉA; =>†€;¾>i½„O>yËá=<%E½^(=Ò;>òÖ<I³W¼c|¾>yk½„ï¼³©>pıº>$0<d»éıÁ>¬š½9Ø<¬X¦>4wü¼ -U½+aÖ>wNÑ>í{¼w®½]|Ø>bG½Lûm¼!8[>È²M½¢7-;—€>ÖÚŒ>\+†½Ã­½Ñd~>¨ö`¼ÕF:L´l>…â<ÜÖ; pu>—ä{>ºU¼H'Œ»@P>Æ-;5„ ¼Áˆ‚>õK¼è;¯<ïšx>D†>Vı†½–˜»òK>4S=ş½ud>OÄ½İ¥Œ½¯>îò>Ju½Ï>4<^¬>ş/¼wø{<V|u>€=D^½&B]>ßrn>şcÚ<€Ğ!½¹·}>U‚ú<¥‚=¼R¯‚>Ågç¼ûo«»&>Ú–>®Š’¼]ê¼…Y›>œø;)ï½y'w><;<ÿğ7½Ÿ9>ëÿk>M c¼ÅÚ#=A›k>5X½ÔE=ößB>m½ Aj½åpR>)0T>	şõ<ïHe¼eÕi>µW<V¾±¼[]>+7©<¥<İß6>:l\>ƒk¡¼pè»Ï‡,>Å4ü¼Õ[=÷gu>ş”½;Lg½Ğíˆ>:,‰>™ÀZ¼28Å<U÷Š>¨²ƒ;ø2=Û>åZÜ<©ß­¼ë/5>ÿJ>Kİ<·óÇ¼ädI>eáî¼‡-½ß>©Ré<^¼ÊJ>ÚËZ>ŠJ‰<û'=|1>ñùÉ¼×ù<\8B>AB2¼[”€<}s>«;>”Cã;¡t<æª->jI½	Öõ»Q¤>NÁ9½œãì¼J"–>Ô£¥>â¼²Ï•»â >ß´¼&°¼¡©^>´2½d–`½´Ár>ˆ>X}D½ÉP½øZe>!M¼eä=¯I>R6<ó½AXt>OÚf>|C<w=¹ye>ºZ½Œ—¼VÄc>ïÎ¼—<L4V>ÄD>Öí<Ti»Ïb>V»‘¼,î<ÉL—>G¦<
+ê$½9Œ>°i>5½é–¶<Ê§ˆ>¯ä¼ Í¼¼&ã„>z¶ü<ùaú¼Ëò˜>+Ñ•>ÌN$½Ï–ç<®j€>Åš(½äÃJ<Á½>ÉtË<.<ÕZd>1³g>Xd½[–¨ºUf>È¤á;Qw$<?çœ>Ì¼T½ï-Â¼ÿ³>@¥>9Íâ¼²°<dÛ¶>Mfİ<¢Ô½ÊgO>³µµ;¾Y½µ)E>Mã[>ÎŠ<«\i¼:|‰>ªÒş:z½ûŸx>RA<ôàÖ;n¦G>>ÓM»šæÅ<²»‚>¿Z½1¾6¼ â}>*q
+=ÀF€<|~p>õŸ]>£³É<.C»r
+S>›hM½§~Ã¼ë¥™>0¥R<½½ÿs>™>5pX½É´Á¹Šü>É3½Ç¹0:Âèx>{ÀN<ŞÂ&½†‡>¹X>é=½(sÒº!‘d>¡4½Mÿ½~0>Ôn»‹{~½3Ø->™i_>!€W¼ÖE½½A>Ø½oâ;2‡˜>»§L¼Ö½ƒÏˆ>\h„>Àó*½E<UÄ…>÷Zî:E=<vw>µGc<|wˆ½6`b>©œ€>NG³¼°µæ¼ÒŸm>6É<ë½µx*>¾=¨ç¹]"2>V>»ıg<`,=×Æm>ÃT½kuñ<}*A>9Ô¼ÇB½fWI>.•q>Zøâ;{K÷¼rdR>Óšü¼ï)!=lZ>Åëç¼(Î¡<mî >ÍÜ>¼ÄŠ<Üˆ½—/>!pß¼9J½¼Z6>œ/8½µÛ<*¬/>ìş>ÄÔ <ûxà¼˜E>®¸­»ò½¼i¥>¸<’·¼•Š>Ò>îzü¼«â½ß °>Æv½ZUÔ<Ğ>s«Ü¼oÙ}¼=ø@>DT=>4?k½^™<n3>Ÿuy¼¦)½—u>°±z:ÅÌ™»ı>Î†¦>önÁ»h%“¼?m>Çê¯¼:bf¼2Æ>N£„<;½MŠ>ïg¨>ôX~½’uŞ<y¥>VS<ùèÓ<Œ;z>–¯<½4‡¨¼ªeN>L­>aá¨¼¥]=ïÄ>wé»=š<f´«>@–<îê´»zk¤>5µÈ>~¦0½°Ş+=Ëc¥>­„…»ÖcÂ¼.²">€Ê–¼ƒ˜½ˆ>× J>¹?Î¼Ó×=¤X(>E9<<í°„<}«>ik<$|“½
+á>¸—¶>L®ê¼ÎÄ#<º­>8é®<py×¼dã>	¸¼¿ÈJ½’\½=P¸
+>}Ój½MµÎ;«†¾=õùÆ<¡†6¼uq>¬S‘¼@:½²š>¼£>i#=¼ÚæG<6«‡>,"Î<9İ¼sÛ>!’p»°Wh½™>g>ãšà¼lâ†¼`í
+>–Ê ½ôé½ ÔÔ=Õšr<h{*<ÆÑ=±¯í=¦f¯<¥û¼˜—9>ÖT;ÿbû<½=`ï;%½¸èÎ=ôâ#>sŸƒ¼æ± =¬æú=šŞº—¾°¼ãS
+>>â¼—sQ;Gàæ=gH>`à½T<½‰<)>‹HJ½$‘!½ö¿ >pñ<¿1½­a˜>ğá­>–Û¼u/¿¼Q–>i]¯<“!7»l“>8Mƒ;N½Õ„>¦7ˆ>qbX<
+Šˆ¼îŸ>(?í»æ€:ş‰>M„%½³û(<§}>Ü ¤>½Ë=¼š°>8!T<Õ0½\6>Ï½ıšJ¼ñ>ß^“>µÅ¼ù¤<¶.§>º/¤<õß =8tw>e¦¡¼kêî;ô¿6>\m>×zÄ;0íª¼ôrv>M\½gºÜv>ù‹¼ÂŞºÈ™Z>×áo>Úó‰»<a‘>YU£<‡¹*½S‚>õœ„¼©Lz;åùh>l[>ò¼= ;+X>n&:)ÿ ¼(¦h>WA˜<Ëæß¼ÊT>Hz”>´#ı»0Ôî<Bz>»ñ<,µ<ÛŸ>:Ù¼ø¶F½x†>Æ¥£>LNw:êÈ¼: >’Ù<½Û»KP>Ç©É<1]<•+>ğŠe>mïz<^Ø=üöK>Pû¼Û:–98ÿx>ÜØì<•´<ê`>£_>Î¹ª¼oøA<ş{‚>#ó_<Œ^ï<Î¶‚>Z¢<ô3ºÉ@~>ìÙ}>¥.¼ıf:»Íoc>¸r¡»Z§B¼¦|>vkô<®7½-£g>QæO>ÿ\¼áˆ%º[2U>Æ' <OJ&<µ›>owé¼.Ae½¡Îˆ>
+G¥>ÒP5½±)=ú*–>PË½ŸÙ½gi9>œÄ¸:NFT½C>§P>‹	½Ñ9=İƒN> “¼<:ß½š#>kµºın@½¦ÈT>÷±‚>®{¨<tûj¼d A>Tø<ëğK<¸6>hE·<ÌÜæ»ğa> a>d¶¤<,Í™¼šé7>%ô<Şô¼€äN>Nš½ßf¼¨H‰>@Œˆ>èşÂ:sı<9>š—< [;€t>Ã¾<Üê÷¼?gŠ>7Ï„>”’4;£Ñn<íK¡>DŞO½L<¿³Ñ>èPŞ¼27»gÃ>ã²İ>C¦;é½¿ŸÇ>ÔW¼@>\»ß%3>€­½z½û«=>6zI>½ò;ë¼r¦i>‚/÷<Íå–<°>‚²¯;Æó»Ê™¥>½y¼>™Ú‚<¾vï¼Õº>‚	;U˜î<„]>tx½60<áƒx>«–>»ù¼ŸÍ0¼ëÚ~>éC:èÇºapm>Roº<NïS½z(s>órp>ÓQ%½Áo=å­E>43¼å]u<Ü?É>É½½‰³¼§º>-à½>‚éO½Qì|¼rîÏ>”¹Å.½¥«|>ZÑ€<É³;‹õ‹>-ñ¬>Å£_½08=PÆ•>5Ï¼ß‘Ï<‚¾‘>O™å<¦_<0‡N>w6„>íJq½ÊPÍ¼˜ƒv>òîô<êvğ:Ó£>ç®< ù‡½N…>×Œ>â‹¼8
+«<>K³½»·Ë;ÍR>ÕÁ<Ó¢‡½v†¤>	Ş>lÄ‘;¬5V¹ñ„>ÄG"½0˜ï;óßï=½ø`…¼í&K=ÿP>À	š:¹?<qò¬=1´;êæÌ¼úéî<¸I¼#«m½úíÄ<0S]=¯õ:½A¿µ¼vC…=:9½ÿ;I¼¿Ê§>:§í;±½Î~¤>¢8¤>F3ˆ½û=›7¡>úÊ»<æOÿ¼MÔ„>0f»£§÷¼íÉm>çBe>=7¼g2`¼fy>n¿á»°İ/=®O™>¥hê¼+øB¼Ç›·>ìÿ§>úQ»¸Ü»Ÿû¡>‰<1½¢3<—L„>’¦	½„‹½3™>"¸‘>4,<œÉÎ¼)2—>®ñD<xw›¼—Â=©å]<¹âª¼÷…²=¤Ää=K@½È|5;1Æ¤=8Ä‰¹Ôö<‚ƒ>ùÆs¼|Š½Ê>I»£>ê?<;fÄ¼â¦¢>D«=ğ<Ç#’>Pp5½öN$½o{€>ƒæ>;ö¼Rkè;ÓŠ>lĞ<iËÙ<Mxœ>q20»@$¼0›>_Â>ğ‹Ê¼Œ¥¼7ßÂ>f’¸„2½ÁL>K6:L†½º†{>°é>LN$½Bã°¼¢v‹> l?½Í\+=Ç7À>QR;Ö½ò—Ø>ÉâÒ>|DA½-&Í¼ºº>ıê=i*½º­v…>A\—:æ¦Å¼,˜˜>Š¯¯> ¾¼Ñf"=âä>Üô<lbš¼–aZ>1vc¼~È¹ûÈ\>%f‹>’ş|¼=ì<è
+ˆ>!Ì<%8B¼9°Å>D =10Z¼Jµœ>ÇêË>a}<,›=D³¾> C¼Xğ;(šˆ>u›6½`9€½¶,I>®g>ÿÀı¼ğ7˜¼VŞ’>y¯T½ıi=Ùw„>sYÊ<À¡%¼uS>}íe>R`¼Xä»ïŞq>·!I¼Vè2<QA>m™€<‹öŠ¼â\ù=b‰>Åœt½Y£<¨8>h;‘»´P¹>h!ó<ZÍ“¹ğë¹>IÕ>ÎŠ½O%¼W¬>³—“<i¾ˆ¼”m>]—½ou†½šá=Í©ô=ùµ ½šÉù;÷Q+>,±Î<ì–;˜:ã=s8¼Jû¦<Ü;.>ú¢X>–eî·{Q»ÁóJ>{‡
+½è©q<TçØ>—‘d<·ã,½dqÇ>
+[Û>åw
+¼oŠ;«ií>	bc¼/[½®š­>…„<Q„¼mA«>{§>?"[¼!O×¼ï²>4m»Ñ¾<İA‰>"X»+Šš¼ƒ®E>i[h>DÒc½m‚ë<My“>Ö2½[c;«'=$Ú!<!|<y>J“>²İZ½~² <£šì=Z­ó¼ Ã	=†‹„>Æ ‚»+Ú¼° Ÿ>ï9‚>¯¸i½Wf¼OÛ†>1	©<V^<vÖĞ=qœ½µ!¼¥½=ÒÛ>1v‚½Á^<2©›=<8í¼:²¼(„>èd½ÛZ[½4K>Åâ>$ó.¼«<Ê<_”>ŞøT½É
+Ë<2Æ‹>5ì=I¯Ğ¼e	•>vÆ·>õ’½¹!½íj¶>VÌE½¢a=‡ª^>Ü¬¼lÌ¼sÜS>Oâm>bõ<äÒ»ËÑš>e§‰¼õë¼S:>W`ø;² ¼ÍwW>…¿k>_*½Î×Ö¼1J>±Å¼`mÍ;­ø>RÂÏ<""½GíY>Wš>·T<Ò·¢<ñd>ã¼¬ûó¼Ø_›>äi#;Tà¼'Áj>”H°>·ÌºLV<;Å©>²ùÑ»ëØ½˜!m>ÄôĞ<ğ2½>†>u‰>0"Ö<%\:î=™>jQ½JcŞ<äàa>’Ô4¼=š«¼5Ì‚>$>>ªJ9½8½=`ÿŒ>g0»›F¼ƒí?>BH½Ár½©v>­¾>>~¼ö"<i}>Šö‚<¶<MHŞ¼$3÷»ÈÛø<ï•<˜Ş=Õ†<¼":«G¼ÚÜ;4ŸÑ¼lz9>¤¼E½ Ğà¼’wz>Öÿr>´Õm½$±0½Ø]œ>â]ç<Ì§ <k>õû<™ÀS½›m^>I*n>´”Õ¼¡u†<…>ÅT½]¦»qĞ>ZV½«U ½°">Ùí>\KÒ¼ßÜÖ<#.>\¸»@æ= ¡<1"½®ÏÒ<ä¾=TnT=2J½{ò¬¼TÄ=Æº›<¶T¼¥5>cÅ9-±;Ûg„=ç«0>L¥H½a‘Æ¼
+-Â=–`½ø¬¼Í\7>} ”¼¸8÷¼ˆĞ >M>"èÔ¼Gb"½¾Cb>„}s<R/É<¦<>’¶ÿ;ñõC;0v">Ò*=>‹rU½×:Z»ß">Êy<i½[>^Ö±¼yt;ø;>ÂÆ<>•·<Jˆ¼U>£5¼Å˜0=÷l‹><L½â\©<ƒ‚¡>#}…>ìÒĞ»5 Ü<ı‡>KÄ¼Ó”=Q¿™= ÿ…¼ÂÁÑ;Xİ >]I>­w¡<¨xä¼yoA>n<Øó~ºä¡>?ö¼×»uI…=#£Ï=–l¼ÄéÖ<Z! >g¼7Rû¼2ˆ>-X¶;H…½3H†>şºo>9$£»hØ=œpu>¢¼ÁlD¼sJi>Ïùç:Éâ‰½r@‹>¹s–>e?š;5Œ½Ä+z>êÇ»;	!½R\>ãÙ¤»²ğš¼ÍhR>à\ƒ>õŞ…¼<²Û¼.Ñ‚>ºmî<Üı;,ß´=x½Uİ½`—=†ÍŠ=’^æ;¥h·¼`aˆ=ª&(¼Ö)<6M(>TÌÚ<cÊG<ÛØ.>²³Z>âR<bÍë<MH>¢ $<™L­<š0>*H½~"q½ÈÁf>¤CW>°(Á;f¢<º‡‚>ÎİB½;­^<ƒZ> 4ú;«b;À	b>
+k>¬Ù÷¼<LÉ¼–4>ù‚½Aã<¢A\>Rk—¼ñ¿Ñ8›>@>Â»E¼´ˆ<]'V>—ª½<âÙ<ô6¯>W:½üEØ»Bµ§>ù~¥>èè;—Ã‡»IØ¯>ò$/<üšÆ:ÚÈ>pÚ¼Pù›¼S>ÏÁ”>ækƒ½¤<A«¦>>>:˜èõ»({>%”æ¼o¸¸¼ñ	v>¯˜g>EQä:ªAº<ÿ~K>0Íù¼y–§¼«’K>‡gâ<˜É[½	 b>Ü0y>~ …;šìî<nß2>:VW;Zş;ã›>áMğ<û:S¼a>X»>$Z<g-<©œ«>ÒÛ•<¸*<—”>Ú‚á¼˜CÏ¼s‘â=¨>Yşè9©Œ<Xq*>lV<µ¤½™ao>‹¡@<T·h½LF>%’>Ú›´¼C”u¼ô}>WÈC½àQ·<Ÿ@“>f¹½â~¨¼K¾>­>Sw½·â;Oã›>§Øß¼pİ<AÀ¹>êw<VĞ‹½3µ>àa®>—Vƒ½¿Hª;6Óª>†<¹µ¼ë_š>ŠÙ »ËÎß;(éš> ñ>hª¨º>·»‘¢>f¼HÀ<ªîŸ>YÅG<­Š…½¸òŒ>¥Üœ>c½„‰½ÍH“>BfL½'İ–¼NC>„(&<ç¼¼‡°>hô>a ¼×
+=ó>¢^¢;¶úŒ¼˜ˆÑ=7½ØV™¼>½›=IPw=’E°<\É ºùå=laÔ»“-=Eèª>±ß=xõ½)‡>Ëü®>Ô!…½nW<A·±>1¼Ê§½(H–>t–<9L2½'öˆ>¶Ï—>ï_ ¼(=*<¢}¶>á=½®7ê¼¶SV><8OT<èØQ>é1‰>+Å)½6&ˆ;4ó€>6€;´ƒŠ¼uN{>®›¹SV±¼ÿ${>æ†z>1ÛS½· 1½rz>¼Ú½¦÷¼S">bÕ¼‡ö;N3¡>¨¦‡>\<“»‹¯$½>­>¼A"½FØ;zŒ>úZ'¼ğrf;Éÿh>ï­’>ùÚğ¼|¬ı»œ¿“>&º³<jˆ$=»Q‡>Lä*½¨ÆY¼ßûz>uó˜>qæ<çŸî<íB…>ˆ^®<ù·B<·0K>7BN¼šÌ?½bVG>.b>»6¼½WO>t½³!½<• >Í“<XŒa½’;|>1@Ÿ>Î@æ¼\Y=
+n•>öÑ½£ô®<ãª¡>]ƒ€<I½Â—¦> \“>ğ”ñ¼ëƒ¯¼ÑÙ‰>úR <ˆÆ¼#Œ>ûY=›ô1<ù(h>Bós>†e¼0]¬¼aFT>7¤<	R½m>æ*½3HÂ¼)­'>É[>>Ù–k½Mˆc<+w>ø×»„Õ½Ãÿ‘>»}½³D‡¼ÆD€>›s>×Û÷¼F^½IJ“>Ú½”w#=Êl>¨ü=±—½ïc„>"l|>¹²{½qåÑ<:‚>š*½V¤¼k >¶4=ú½¨1«>ß3®>Øyº¼	µ»úl·>¥—<c€»PX>â$½
+¯N½5=™>ê—>õø<’Â<Bœ>"$½Jˆè<; >}T…¼ü¶½Ğ‹ƒ>e>’>ö„½IC<à>#,¼»ª´¼Ãú4>äœs»D Š½]w>Á3->‘Ë;¼IÃ@»g‘r>¶cy<fö#½Ï=[2O½a½=h4>zñ>R÷‚;çoâ¼²—D>µ©ú;dV½ÈÔ=ÀëV<h­½íİ=nRô=Q•?¼KÔ<ìÒ1>§¦½Dğ‘¼€>×pÈ<1F¼¼>>¾…>@„½õ±/½¬¥n>Œ6<æë¼ÄÊ'>,çÿ<¿ªÀ¼^¢>9f>„D½°¯Í<'v >»ŠÚ„¼OÂz>Â§Õ<À¶¼ôv>İµ¢>ëj¼ì‹»Fh¨>ÆĞµ;Yº<6>t;èãó¼ÿ/B>h?%>â€¼G¿î¼Ç:>ìoD½¾J¼ç‹ª=^,¼²¼ÁÃÛ<ãÖ=iü·¼–±'½Ë±=2õ<¢€ó<¶p‰>H<g{<î?€>å—>»â»şçÅ;Å{>$ä5¼†%½NHg>¤V¼SL2¼ÏÒ/>Ò	‡>†³	½/Ãè:’™K>fyà¼"æ§¼»¾r>ìÌ<pºõ¼\Ñr>ãŠ>&`(½:ñ½áb‘>UİÏ<³ÖA<&Nd>°ä3½oş»G$H>Á&‹>Û-½S¦µ¼ŸY>WS½ö{¸<²	>K½”÷½Î;>wØE>m><v8]¼İ5K>½eÁ¼Æ_½¡¦…>“p¼Q±B»*Œ>ˆ¢>f6»«p"½šª”>»Fß¹œ=dNk>"%<F«;¾ı„>ß^~>Ø	Ê¼›p=É
+…>u;ßN%½km†>¶¯¼2U¼İo>î1š>±¥;1i)½ë)>:Í<¼[½õ€š>–u½¨<“<pF‹>ui>w[A»{º<$Ü¬>7aÁ<JO½:¨> 	½=‚‰½˜ÿ¹>wŠº>_³¬;ü­½îVä>u‡<Wï½4Ø¸>ìL§<ÿL½M°>ÆÂŸ>¼f½…Y0½T8º>Ğ¼×´½Çl>wg<ª×¼—R2>wiw>ã%Ğ»\lÕ<¸Ôe>•ø¼l¦Ó¼¹û†>Ò=ÏÁİ»×>F¥>€]'½V»<2Â¡>#'÷º€áİ<šß§<“¤¼K¼–ì;;X=„vA¼»ê½©3‡<*°<í<ùa=Ö]¼8ªÆºJ:Ú<27=ÖCV¼´=5s=§X½l'"= ?=­=U‡2½8åÅ=’ÒÏ=r4º¼İg°¼ ~Ğ=Gÿ¼éÄ¼ğ
+>#=¼Æú¼D>j>›“ç¼,=7ü=¹J½s Ä<¯O½>÷­Á<ğ‰<
+÷Á>jÀ>MÄÉ;Kq›»x©¨>ÛçÆ:Y²<™Š>=v=x(“¼Ÿ÷L>T~>óŞP½üyp¼µ™> P"½½=äÔ£>L"e¼‰u~½ÍóŸ>)ãÄ>™é§¼óê<êm¢>1Ü:g<í¼Š,À>xì%½NUv½I8·>®ğ½>r½È·
+=ZƒÎ>A]½ïC½7¥>Š½hÈy¼PJš>>¯¬>0›A<#›;“[®>ë‰i¼PĞ´<ES>À@<q!„¼4.˜>f¯¥>®»·l=Ì>’½Ø/<R@š>ùäû;~y<Á6Ÿ>0r•>§»îà=S9ƒ>vr)½`p¼Â.‹>éÅ.<Òm½)7F>¨à”>°=½Y)½­¤†>±c©»Y¼8Ú2>ôz»?<,$>P¶\>œD`½­]Ø»¡VL>|7Q½ãª)½¸¯Ä>ßU;ˆş”»]ô£>"8·>ïFq½UY½´¨>˜5¼GÕİ»À"^>R…¼¸.»¼z\n>ª®–>Ï ™¼jÏ,½ÄØx>ae¼Sù»<«>À½(©;·Æ¸>
+æ´>ê_½ 6=²¢>”ûB½£I1=ß¬!>0Wà¼Dø‡<>b>SUn>9¼a^É¼l:>Œ©¼Ã<¬¬H>?èÑ<q,7½¹Œ]>¢Öo>Åš;ßN«¼é^Š>€g§¼…y]¼Éºq>tHÆ9ş¼<—Aw>ÆŸ„>fù¿ºàÒ =ŞY§>H&½‹)=n>6>º²¾;h-M½3[>î]>Vÿ¼b¢¼Or>ŞH@< ½Ğ”x>dic<D*¼»+q>ø‹>ªS½üvÓ¼C“>Nı»bGŒ»ûç=¹:Ë»{ç½A'ª=â\‘=Õğ½L"=afÇ=È:ª€6< É9>—£¼“¼>1$€>ÁœÌ¼+ı´<ä}g>‚ş;†>Î<¯>2Éy»qm½ª>ÅH¾>Şy¼‘å;ÁÖ>¶,$½¾*$½f>Oùô¼dW¼Ñ…>Ú{>ÓÀ½â®Ó9Oq>tÃ›<Øt«¼ayË>Íâ<ÁZ6½¥õË>rİÙ>İş<ÁÈ;Î‡Ë>ñ;M<àš¢>(èì<İÒr½M"œ>½¤—>„X~½ùÎ<^	µ>£lİºöî;.ø°>ÈÕ<“M›¼4(¶>¯¶À>UÖ:2½Ü:á>ò#ê¼+qJ<ßÎ¢>_É<RšK¼Ié¦>°êÁ>æe¼=q’¼©~®>aé+¼Ü…=,º>8L¼Â„x½ØH´>bĞ>ƒË¼Mh{<ÿ×¼>"9½`(ä<V‰>ÆŠ‘<—úÄ¼—Õ§>Y±>úß½ß„î<Ğn¦>ş½í™<+'¡>Ã==Î·M½0¢>=Œ>e¶¼u=v+š> P½Œ©¼‚Û|>êº>½÷8U¼6Ê‘>µA>ÛÛ¼j	=¬Ä†>û;…:»<ü™->m*ı¼©C¾<cø0>Mß>ŠN<ùÕ¼Á+>+xÖ¼äçŸ9-R>7Éz<Ù+½¥„i>Õ¯‚>ŠŸ;)ğ¼uO>Øj#;Ï¬'<¿yÀ½\]¬¼ë¼¢•½ûXá½ªqH½2J¼sÀï½”£¼†B½Š»">amÿ<ˆWÀ¼â×I>‚SR>?Øö:
+Ÿ¼ï4>µQ¢<[üº»¥>dSç»ƒWã<áú>qğ >„ºË/=QM>ÏJ}<ò%<v{†>jõ‚;5fñ¼=‡>e‰>Ğm|½ü;èız>uQ<!¸ã»³GR>xnŞ;*¸@½NZ>çU>Ò˜ë¼ØNÊ<@2O>“W%½…_õ<ó²Í>Ÿ5Ã;M^Î»eF«>VÅÕ><»B»;šk¼ÈcÖ>Àß<Å¿ôºåH0>É=LÆ#¼L0ü=±×/>í4½ÛäŒ¼r	ş=h£=<MÛ;¼é À>9s*½P¥ö¼†ZÁ>ˆ)»>‘‡¼â0=-ÿ´>;İß¼ëå¦<2$={Uë¼^Â®¼\?*<H,’=N5\½)§.=Ğ„=Hÿ¹<¢	=
+W">ìwS<2˜Ç¼°æI>”=>&½e´L¼¾ËE>€‰3½5à.½´hM>"ÊÎ<eğL½[XM>[àŠ>Âó<­¼×>ºô†<Eæ¨<¡Ğj>{Ğ;‘ÊÈºìr?>°Ú>Ø¼}ù½f–Š>;#7<–X¼ùÜF>Åé•<bf5½ò{r>iË•>hÇm;'×¨<Òã‡>vŸA½½*=+ï|>î,*½Ô‹†½z˜†>ğ¿¦>e‚Ÿ¼¹‘;İ'>[·<å²<­¡«=—O<@“½à^İ=ò
+>@§'½å¨»¤ü=«¤¼Úuè¼æAN;şŞ¦<]:¤<Ğ_ğ<oİî<††a½¨ÿc»*<¼<•?; Ô¼Ã™ˆ>”Àÿ¼yz<‚œ>ãS¬>Õz½¥™%=ĞI>ï³W½ËR¨<Ñ<>I5¬¼Ô0H;Òé1>Ì1>¯c<½Â¸<­ ‚>Ôïª<3'Ö<:¨£>Åê<Šèò»?v‰>Üx¨>”]<=˜½¼´œ>P§<Ş¦¹’ø»> ¶<8ä¼E£®>şsÎ>ÑÒ\<IQ½ùµ>‡ =ÛÃä:A{r=ƒ•…<DÄ}½pbZ<å¾<ø=¡¼$x;wxb=¼Í¬<ôc½&>°=Æ÷¼Dì0>…Zá=WP¼tª¾¼îŸ6>Ç9ÄQUº‹(Å>SZ<²"½³~›>ôUº>Ï<)½{ÿ:Èš£>í›G½<-f»‡[>¹û1½ƒÛ»¾?>Efv>Ğ±<ğ¥½¿,G>ÅB*<0€Õ<¬½(>Ôâ2½î;½W#>[>bjG½90$½F/>ÔÅ½ xÖ<áš>ãÅ¦¼«¥I½À>áãƒ>AÆ»»TÓ´»w>cz‚<"…Õ¼]s§>o€¼«³¼¼m‰>kúÁ>¼3-¼‹›!=„ª›>êH¼Rúü»\ñ°>š+J¼:FŠ<¢í¾>è4É>À7¼Õèê»8eÊ>‰Øğ:u·.=nì—>xÿ—º†,„¼'º–>4S†>*ş»/¹½Eiy>±×9½§è+½ÎøV>úşÛ¹‰h¼á˜]>‘ü>6v½3$=3)o>•»æ÷Û¼*A
+Bonnx::MatMul_14J(LŞ¾µ-9>@?q>™6¿Õ©±¾–j>’Õ§½öQÄ¾X'>; ¾Z
+dense1
+
+
+
+b
+outact
+
+
+
+B
