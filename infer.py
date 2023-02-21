@@ -4,9 +4,14 @@ from collections import OrderedDict
 import time
 
 model_filename = "tridonn"
+target_file = "my_fun_playlist.csv"
+
+print(f"Infering with {model_filename} on {target_file}")
+
+ff = "{:.5f}".format
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-print(f"Using {device} device")
+#print(f"Using {device} device")
 
 N0 = 527
 N1 = 10
@@ -30,7 +35,7 @@ def rate_file(filename):
     rate_lines = [l.replace('\n', '').split('\t') for l in rate_file]
 
     my_test_x = [[float(i) for i in l[1:]] for l in rate_lines[1:]]
-    song_names = [l[0] for l in rate_lines[1:]]
+    song_names = [l[0].replace(".m4a.wav", "") for l in rate_lines[1:]]
 
     print("Song ratings: [0-1]")
 
@@ -43,13 +48,13 @@ def rate_file(filename):
         results[song_name] = float(logits[0])
     return results
 
-values = rate_file("my_fun_playlist.csv")
+values = rate_file(target_file)
 ratings = sorted(values.items(), key=lambda x: -x[1])
 
 print("Top 5:")
 for r in ratings[:5]:
-    print(f"{r[0]}: {r[1]}")
+    print(f"{ff(r[1])}: {r[0]}")
 
 print("\nBottom 5:")
 for r in ratings[-5:]:
-    print(f"{r[0]}: {r[1]}")
+    print(f"{ff(r[1])}: {r[0]}")
