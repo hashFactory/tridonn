@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "name": "tridonn - tidal inference",
+  "version": "1.0",
+
+  "description": "Automatic song enjoyment inference from tridonn model.",
+
+  "icons": {
+    "48": "photo.png",
+    "96": "photo@2x.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://listen.tidal.com/*"],
+      "js": ["tidal.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "permissions": [
+      "http://rate.trido.fr/*"
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "anonymous@anonymous.fr"
+    }
+  }
+
+}

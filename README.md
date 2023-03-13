@@ -1,7 +1,11 @@
 # tridonn
-A PyTorch NN trained to recognize songs I might like based on Spotify listening history.
+A PyTorch NN trained to recognize songs I might like based on Spotify listening history. This repo also includes [tridonn-extension](tridonn-extension), a Firefox extension for Tidal enabling personalized song ratings on-the-fly.
 
-### Sample output
+### Demo [tridonn-extension](tridonn-extension)
+
+![Demo of Tidal extension running](tridonn-extension/tidal_extension_scores.png)
+
+### Sample inference output
 
 ```
 Infering with tridonn on my_fun_playlist.csv
@@ -34,3 +38,17 @@ Bottom 5:
 
 (only once you have `_synth.csv` and a target `.csv` to rate)
 1. run `infer.py`
+
+### To run Tidal inference server
+
+1. once you have a `tridonn` model
+2. clone [fschimd56/EfficientAT](https://github.com/fschmid56/EfficientAT)
+3. copy `serve_infer.py` into `EfficientAT` and customize server configuration
+4. (optional) copy pre-analyzed inference `.csv` to `EfficientAT` folder
+5. run `serve_infer.py` from the created folder
+
+### To run Tidal inference extension (tridonn-extension)
+
+1. Follow your browser's instructions for installation
+
+(for Firefox, go into `about:debugging`, select `Load temporary add-on...`, and finally select the `manifest.json`)
